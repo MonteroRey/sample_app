@@ -15,4 +15,7 @@ class UserTest < ActiveSupport::TestCase
     @user.email = " "
     assert_not @user.valid?
   end
+  test "email addresses should be unique" do 
+    byebug
+  end
 end
