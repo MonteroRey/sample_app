@@ -18,4 +18,5 @@ class UserTest < ActiveSupport::TestCase
   test "email addresses should be unique" do 
     #byebug
   end
+
 end
