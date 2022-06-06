@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Branch A :
+* add a authentication password for user 
+* add session for user 
+* add email authentication 
+* add a test and validation for user model
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+tools :
+* brcypt 
+* email_verifier
+* minitest
+* shoulda (association validation)
+* 
