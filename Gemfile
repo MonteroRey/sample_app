@@ -15,6 +15,7 @@ gem "bootsnap",        "1.12.0", require: false
 gem "pg", "1.3.5"
 gem "byebug"
 gem "webpacker"
+gem "bcrypt"
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

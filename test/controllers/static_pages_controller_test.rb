@@ -9,7 +9,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get help" do
-    byebug
     get help_path                 #static_pages_help_url
     assert_response :success
     #assert_select "title", "Help | Ruby on Rails Tutorial Sample App"
